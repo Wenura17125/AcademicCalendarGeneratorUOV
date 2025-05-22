@@ -1,0 +1,11 @@
+# Netlify redirects file
+# This ensures that all routes are handled by Next.js
+
+# Handle all routes with Next.js
+/*    /index.html   200
+
+# SPA fallback
+/*    /index.html   200
+
+# Redirect API calls to Next.js API routes
+/api/*  /api/:splat  200
